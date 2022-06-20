@@ -1,0 +1,11 @@
+provider=TomaszWilczyński
+title=App for XITE
+major_version=1
+minor_version=0
+build_version=0
+
+mm_icon_focus_hd=pkg:/images/HD/channel_logo.png
+ui_resolutions=FHD,HD
+uri_resolution_autosub=$$RES$$,FHD,HD
+
+splash_screen_hd=pkg:/images/HD/splash.png

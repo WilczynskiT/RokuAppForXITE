@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="ButtonsPlaceholderGrid" extends="Group">
+    <script type="text/brightscript" uri="ButtonsPlaceholderGrid.brs" />
+    <script type="text/brightscript" uri="pkg:/source/general/utils.brs" />
+    <interface>
+        <field id="focused" type="boolean" />
+        <field id="selectedItemIndex" type="integer" value="0" />
+        <field id="buttons" type="array" value="[]" />
+    </interface>
+    <children>
+        <Group id="ButtonsGroup">
+            <ShowAllButton id="ShowAllButton" translation="[0,0]"/>
+            <SearchButton id="SearchButton" translation="[150,0]"/>
+        </Group>
+    </children>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Search" extends="Group">
+    <script type="text/brightscript" uri="Search.brs" />
+     <interface>
+        <field id="acceptedText" type="string" alwaysNotify="true"/>
+    </interface>
+    <children>
+        <Group id="keyboardPlaceholder" translation="[200, 0]">
+            <Keyboard id="Keyboard"/>
+            <AcceptButton id="AcceptButton" translation="[380,450]"/>
+        </Group>
+    </children>
+</component>

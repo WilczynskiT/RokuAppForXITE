@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="GridView" extends="Group">
+    <script type="text/brightscript" uri="GridView.brs" />
+    <script type="text/brightscript" uri="pkg:/source/general/utils.brs" />
+    <interface>
+        <field id="logo" type="uri" alias="Logo.uri" />
+    </interface>
+    <children>
+        <Video id="VideoPlayer" visible="false" translation="[0,0]" width="1920" height="1080" />
+        <Group id="GridViewElements">
+            <Rectangle id="GridViewBackground" width="1920" height="1080" color="0x717171" />
+            <Group id="Menu" translation="[0, 20]" visible="true">
+                <Rectangle id="MenuBackground" width="1920" height="50" color="0x717171" visible="true">
+                    <Group id="LogoAndButtons" translation="[100, 0]" visible="true">
+                        <Group id="LogoPlaceholder" visible="true">
+                            <Poster id = "Logo" height = "50" uri = "" loadDisplayMode="scaleToFit"/>
+                            
+                        </Group>
+                        <ButtonsPlaceholderGrid id="ButtonsPlaceholder" translation="[100, 5]"/>
+                    </Group>
+                </Rectangle>
+            </Group> 
+            <Rectangle id="SearchBackground" translation="[100, 100]" width="1720" height="980" visible="false" color="0x717171" >
+                <Search id="Search"/>
+            </Rectangle>
+            <Rectangle id="GridBackground" translation="[100, 100]" width="1720" height="980" visible="true" color="0x717171" >
+                <ItemsGrid id="ItemsGrid" />
+            </Rectangle>
+        </Group>
+    </children>
+</component>

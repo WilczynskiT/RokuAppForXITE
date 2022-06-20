@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="ItemsGrid" extends="Group">
+    <script type="text/brightscript" uri="ItemsGrid.brs" />
+    <interface>
+        <field id="content" type="array" />
+    </interface>
+    <children>
+        <PosterGrid id="ContentGrid" translation="[6,0]" basePosterSize="[412,192]" itemSpacing="[20,20]" caption1NumLines="1" caption2NumLines="1" numColumns="4" numRows="4" 
+        vertFocusAnimationStyle="fixedFocus" focusFootprintBlendColor="0xFFAD33"/>
+    </children>
+</component>

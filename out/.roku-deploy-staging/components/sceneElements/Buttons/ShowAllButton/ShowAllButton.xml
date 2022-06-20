@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="ShowAllButton" extends="Group">
+    <script type="text/brightscript" uri="ShowAllButton.brs" />
+    <children>
+        <Poster id="ShowAll" height = "40" loadDisplayMode="scaleToFit" />
+    </children>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="SearchButton" extends="Group">
+    <script type="text/brightscript" uri="SearchButton.brs" />
+    <children>
+        <Poster id="Search" height = "40" loadDisplayMode="scaleToFit" />
+    </children>
+</component>

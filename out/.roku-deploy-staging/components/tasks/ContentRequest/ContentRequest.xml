@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="ContentRequest" extends="task">
+    <interface>
+        <field id="jsonResponse" type="string" />
+        <field id="url" type="string" />
+        <field id="searchText" type="string" />
+        <field id="mappedData" type="array" />
+        <field id="data" type="assocarray" />
+    </interface>
+    <script type="text/brightscript" uri="ContentRequest.brs" />
+</component>
